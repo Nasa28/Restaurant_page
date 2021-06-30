@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "restaurant_page",
   "main": "index.js",
+  "private": "true",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/Nasa28/Restaurant_page/issues"
   },
-  "homepage": "https://github.com/Nasa28/Restaurant_page#readme"
+  "homepage": "https://github.com/Nasa28/Restaurant_page#readme",
+  "devDependencies": {
+    "webpack": "^5.41.1",
+    "webpack-cli": "^4.7.2"
+  }
 }
