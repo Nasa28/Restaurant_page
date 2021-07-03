@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "restaurant_page",
   "private": "true",
-    "scripts": {
+  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack"
   },
@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/Nasa28/Restaurant_page#readme",
   "devDependencies": {
+    "css-loader": "^5.2.6",
+    "style-loader": "^3.0.0",
     "webpack": "^5.41.1",
     "webpack-cli": "^4.7.2"
   }
