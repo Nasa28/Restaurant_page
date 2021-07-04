@@ -18,18 +18,19 @@ const home = () => {
   p.classList.add('p')
   detail.classList.add('detail')
   h3.textContent= "Welcome to Chop-life- restaurant.";
-  p.textContent = `We are always there to serve you better.
+  p.textContent = `We are always there to serve you better. Try us today,
   you will never regret it. 
   `;
   detail.textContent = `
   Check our menu list to place your order now!!!`
   btn.textContent = 'ORDER'
   a.setAttribute('href', '#');
+
+
   a.appendChild(btn)
   imageParent.appendChild(image);
   imageParent.appendChild(detail);
   detail.appendChild(a)
- 
   p.appendChild(imageParent);
   h3.appendChild(p);
   main.appendChild(h3);
