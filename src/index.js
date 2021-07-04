@@ -1,4 +1,4 @@
-import './style.css';
+import './assets/css/style.css';
 
 import myNav from './navbar';
 import home from './home';

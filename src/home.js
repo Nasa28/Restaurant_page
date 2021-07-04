@@ -1,3 +1,4 @@
+import icon from './assets/images/bg.png';
 const home = () => {
   const main = document.createElement('div');
   const h3 = document.createElement('h3');
@@ -7,11 +8,9 @@ const home = () => {
   const detail = document.createElement('p')
   const btn = document.createElement('h4')
   const a = document.createElement('a');
-  
   image.id = "id";
   image.className = "image";
-  image.src = '../food-13642.html'
-  image.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK6ghC4OB1yk7uqJoEupPCdoFFfYecE5J_UQ&usqp=CAU"; 
+  image.src = icon
   main.classList.add('main');
   imageParent.classList.add("image_parent")
   h3.classList.add('h3')
