@@ -1,7 +1,8 @@
-import './style.css'
-import navBar from './navbar';
+import './style.css';
 
-const loadPage = () =>{
-  const content = Document.getElementById('content')
-  content.appendChild(navBar)
-}
+import myNav from './navbar';
+
+const content = document.getElementById('content');
+  myNav();
+
+

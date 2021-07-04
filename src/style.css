@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: green;
+  text-align: center;
+}
+
+.h1 {
+ margin-bottom: 70px;
+ padding-top: 50px;
+ font-weight: bolder;
+ font-family: Tangerine, cursive;
+ color: white;
+}
+
+.li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  margin:auto 30px;
+  margin-bottom: 50px;
+  color: white;
+}
+
