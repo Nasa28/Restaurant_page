@@ -4,9 +4,26 @@
   box-sizing: border-box;
 }
 
-.container {
-  background-color: green;
+html { 
+  background: linear-gradient(
+    95deg,
+    rgba(58, 36, 17, 0.5),
+    rgba(204, 120, 11, 0.7)
+  ),
+  url(https://st.depositphotos.com/1005682/2476/i/600/depositphotos_24762569-stock-photo-fast-food-hamburger-hot-dog.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.container {  
   text-align: center;
+  background: linear-gradient(
+    95deg,
+    rgba(58, 36, 17, 1),
+    rgba(204, 120, 11, 0.8)
+  )
+
 }
 
 .h1 {
