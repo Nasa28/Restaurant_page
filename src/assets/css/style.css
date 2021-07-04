@@ -16,7 +16,7 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
-.container {  
+.container{  
   text-align: center;
   background: linear-gradient(
     95deg,
@@ -100,4 +100,12 @@ h4{
 
 .price{
   color:rgb(50, 75, 1);
+}
+
+.contact {
+  text-align: center;
+  color: aliceblue;
+  font-size: larger;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
 }

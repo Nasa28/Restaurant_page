@@ -8,7 +8,6 @@ const home = () => {
   const detail = document.createElement('p')
   const btn = document.createElement('h4')
   const a = document.createElement('a');
-  image.id = "id";
   image.className = "image";
   image.src = icon
   main.classList.add('main');
