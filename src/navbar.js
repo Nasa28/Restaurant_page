@@ -1,5 +1,5 @@
 const myNav = ()=>{
-  const list = ["Menu", "Contact", "About"];
+  const list = ["Home", "Menu", "Contact", "About"];
   const header = document.createElement('header')
   const container = document.createElement('div')
   const logo = document.createElement('h1');
