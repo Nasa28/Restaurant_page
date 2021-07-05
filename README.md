@@ -17,7 +17,7 @@
 
 ## Live version
 
-You can check the live version in [this link]()
+You can check the live version in [this link](https://chop-life-restaurant.netlify.app/#)
 
 ## Getting Started
 
